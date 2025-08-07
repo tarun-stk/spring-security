@@ -1,0 +1,7 @@
+If working with browser based login form, the username and password collected from the login page,
+will be transformed into an object and will be authenticated in UsernamePasswordAuthenticationFilter, will be authenticated
+in attemptAuthentication method.
+
+When working with basic authentication, the username and pass will be encoded and transformed into
+header value with key as Authorization, and sent to the BasicAuthenticationFilter class, will be authenticated
+in doFilterInternal method.
