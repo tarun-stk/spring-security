@@ -1,4 +1,4 @@
-# Section-2
+# Section-6
 
 - Added Custom Authentication Provider
 - Understood methods in Authentication Providers
