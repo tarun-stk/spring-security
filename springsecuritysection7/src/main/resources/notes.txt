@@ -1,0 +1,13 @@
+Authentication and Authorization exceptions in spring security are handled by Exception Translation Filter
+
+If authentication fails, then AuthenticationEntryPoint will trigger
+If authentication succeeds, but do not have enough privileges, then AccessDeniedHandler will be triggered.
+
+                Exception Translation Filter
+                            |
+                            |
+                     ----------------
+                     |               |
+                     |               |
+              Authentication    Access Denied Handler
+              Entry Point
